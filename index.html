@@ -1,1 +1,36 @@
-test
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Polecenia na laboratorium z linux</h1>
+sudo
+1.RSS – 
+VSC – 
+2.Htop opcje: F1
+Top ?
+3.Ps ax | wc -l
+4.ps x | wc -l
+pstree $(whoami)
+5. ps ax | cut -d ' ' -f 3-8 | grep '?' | wc -l
+6. wget
+chmod +x datecont
+./datecont > datecont_out
+watch cat datecont_out
+kill -SIGTERM 107861
+kill -SIGSTOP 107861
+7.
+Ctrl a n – przełącz się między screen
+Screen -r [numer screen]
+Ctrl d to terminate
+Ctrl a d to detach
+8.
+Echo ‘hardstatus alwayslastline’ > ~/screenrc
+9.
+Watch ‘ps ax | grep bash’
+10.
+at -m 9:23
+echo Już czas … > /dev/$(who | grep mkotarba | tr -s ' ' | cut -d ' ' -f 2 | head -n 1)
+
+</body>
+</html>
+
